@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
-from env import EmailEnv
+from .env import EmailEnv
 
 env = EmailEnv()
 
